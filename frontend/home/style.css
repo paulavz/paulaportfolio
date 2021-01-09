@@ -3,17 +3,14 @@ body {
    margin: 0;
    font-family: "Telex", sans-serif;
 }
+
 .header {
-   height: 0;
-   width: 100%;
-   display: flex;
-   justify-content: flex-end;
-   position: relative;
-   top: 2.5rem;
-   right: 4rem;
+   margin-top: 2.5rem;
 }
 .text-decoration {
    text-decoration: none;
+}
+.icon {
    margin-right: 2rem;
 }
 .menu {
@@ -77,6 +74,15 @@ body {
    flex-direction: column;
    justify-content: center;
    margin-left: 2rem;
+}
+.texto-web {
+   flex: 1 1 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.texto-web h1 {
+   margin: 0;
 }
 .flecha-padre {
    display: flex;
