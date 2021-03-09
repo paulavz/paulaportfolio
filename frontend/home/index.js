@@ -5,6 +5,6 @@ import linkedin from '../img/linkedin.svg'
 import paulasaludos from '../img/paulasaludos.png'
 import flechabajar from '../img/arrow-down.svg'
 import menuicon from '../img/menu-icon.svg'
+import "./scripts/hamburgerMenu";
 import './style.css'
 
-alert("hola mundo")
